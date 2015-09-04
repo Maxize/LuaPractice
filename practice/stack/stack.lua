@@ -1,4 +1,3 @@
---require("object");
 
 Stack = {size = 0,array = {}};
 

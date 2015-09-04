@@ -1,8 +1,7 @@
--- require "SuperSort";
-
+-- 测试排序算法的demo 
 --  打印数组
 function print_arr(a)
-	for _, k in pairs(a) do
+	for _, k in ipairs(a) do
 		print(k);
 	end
 	print("*************************************");
@@ -11,7 +10,6 @@ end
 --  引入SuperSort对象
 local arraysort = require "SuperSort";
 s = arraysort;
-
 
 print("an array for example");
 print("list = {1, 3, 5, 8, 4, 10, 6, 2, 7, 9};");
@@ -81,10 +79,6 @@ while true do
 		print("I cant deal with it!");
 	end
 end
-
-
-
-
 
 -- s:bubbleSort();
 -- s:insertSort();
